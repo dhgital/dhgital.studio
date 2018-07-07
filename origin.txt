@@ -1,0 +1,844 @@
+Uri: http://shirokuro-inc.co.jp/
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\index.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/favicon.ico
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://shirokuro-inc.co.jp/css/import.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\import.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/img/common/logo02.svg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\common\logo02.svg
+Content Type: image/svg+xml
+
+Uri: http://shirokuro-inc.co.jp/list-all.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-all.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/about.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\about.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/common/logo03.svg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\common\logo03.svg
+Content Type: image/svg+xml
+
+Uri: http://shirokuro-inc.co.jp/works-josephspoon.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-josephspoon.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/works-unsigned.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-unsigned.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/works-kubota.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-kubota.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/works-iroka.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-iroka.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/works-ikoru.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-ikoru.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/works-nestrobe.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\works-nestrobe.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/thum-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\thum-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/js/lib/jquery.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\jquery.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/jquery.easing.1.3.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\jquery.easing.1.3.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/jquery.pjax.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\jquery.pjax.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/jquery.inview.min.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\jquery.inview.min.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/lity.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\lity.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/smooth-scroll.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\smooth-scroll.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/ofi.min.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\ofi.min.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/modernizr-custom.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\modernizr-custom.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/lib/jquery.flexslider-min.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\lib\jquery.flexslider-min.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/js/common.js
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\js\common.js
+Content Type: application/x-javascript
+
+Uri: http://shirokuro-inc.co.jp/css/reset.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\reset.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/css/base.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\base.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/css/layout.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\layout.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/css/module.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\module.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/css/page.css
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\css\page.css
+Content Type: text/css
+
+Uri: http://shirokuro-inc.co.jp/index.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\index-1.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/list-branding.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-branding.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/list-graphic.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-graphic.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/list-product.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-product.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/list-project.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-project.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/list-selfbrand.html
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\list-selfbrand.html
+Content Type: text/html
+
+Uri: http://shirokuro-inc.co.jp/img/about/about-img.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\about\about-img.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/story-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\story-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/story-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\story-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/story-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\story-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/mainvisual-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\mainvisual-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img08.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img08.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img08.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img08.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img09.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img09.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img09.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img09.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img10.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img10.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img10.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img10.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img11.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img11.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img11.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img11.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-big-img12.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-big-img12.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/01/gallery-thum-img12.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\01\gallery-thum-img12.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/story-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\story-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/story-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\story-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/story-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\story-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/mainvisual-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\mainvisual-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img08.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img08.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img08.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img08.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img09.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img09.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img09.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img09.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img10.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img10.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img10.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img10.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img11.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img11.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img11.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img11.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img12.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img12.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img12.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img12.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img13.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img13.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img13.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img13.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img14.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img14.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img14.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img14.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img15.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img15.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img15.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img15.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img16.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img16.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img16.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img16.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img17.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img17.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img17.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img17.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img18.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img18.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img18.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img18.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img19.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img19.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img19.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img19.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img20.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img20.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img20.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img20.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img21.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img21.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img21.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img21.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img22.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img22.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img22.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img22.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img23.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img23.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img23.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img23.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img24.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img24.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img24.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img24.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img25.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img25.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img25.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img25.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img26.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img26.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img26.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img26.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img27.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img27.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img27.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img27.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img28.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img28.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img28.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img28.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-big-img29.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-big-img29.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/02/gallery-thum-img29.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\02\gallery-thum-img29.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/story-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\story-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/story-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\story-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/mainvisual-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\mainvisual-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-big-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-big-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/03/gallery-thum-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\03\gallery-thum-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/story-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\story-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/story-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\story-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/story-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\story-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/mainvisual-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\mainvisual-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/mainvisual-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\mainvisual-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-big-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-big-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/04/gallery-thum-img07.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\04\gallery-thum-img07.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/story-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\story-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/story-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\story-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/mainvisual-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\mainvisual-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-big-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-big-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/05/gallery-thum-img06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\05\gallery-thum-img06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/story-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\story-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/story-img02.gif
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\story-img02.gif
+Content Type: image/gif
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/mainvisual-img02_06.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\mainvisual-img02_06.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-big-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-big-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-thum-img01.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-thum-img01.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-big-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-big-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-thum-img02.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-thum-img02.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-big-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-big-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-thum-img03.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-thum-img03.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-big-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-big-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-thum-img04.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-thum-img04.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-big-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-big-img05.jpg
+Content Type: image/jpeg
+
+Uri: http://shirokuro-inc.co.jp/img/works/06/gallery-thum-img05.jpg
+File Name: c:\Downloaded Web Sites\shirokuro-inc.co.jp\img\works\06\gallery-thum-img05.jpg
+Content Type: image/jpeg
+

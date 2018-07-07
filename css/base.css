@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+#####################################################################
+
+	Table of Contents [Index]
+	
+#####################################################################
+
+■Body [body]
+
+■Link [a]
+
+■Wrapper [.wrapper]
+
+■Contents [#contents]
+
+■Header [header]
+
+　＿Option [option]
+
+　＿Logo [.logo]
+
+　＿Headerbox [.headerbox]
+
+■Footer [footer]
+
+　＿Logo [.logo]
+
+　＿Footerbox [.footerbox]
+
+*/
+
+
+/*
+#####################################################################
+
+	Body [body]
+	
+#####################################################################
+*/
+
+html {
+	font-family:"YuGothic","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+	word-break: normal;
+	background-color:#FFFFFF;
+	
+	/* Property that specifies the degree of anti-aliasing effect */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	/* Measures to make letters grow without permission on smartphones */
+	-webkit-text-size-adjust: 100%;
+}
+
+
+/* Highlight color when selecting text */
+*::selection { background: #dddddd; }
+*::-moz-selection { background: #dddddd;}
+
+body{ overflow-y:scroll;}
+
+
+@media screen and (max-width : 1199px){
+	html {
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width : 767px){
+	html {
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width : 479px){
+	html {
+		font-size:13px;
+	}
+}
+
+/*
+#####################################################################
+
+	Link [a]
+	
+#####################################################################
+*/
+
+a{ 
+	color: #1a1a1a;
+	text-decoration:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);/*Invalid" highlight color on smartphone*/
+}
+
+a:hover{
+	color: #1a1a1a;
+	text-decoration:none;
+}
+
+/*
+#####################################################################
+
+	Wrapper [.wrapper]
+	
+#####################################################################
+*/
+
+.wrapper{
+    /*margin: 0 auto;
+    max-width: 980px;*/
+	padding-left:60px; padding-right:60px;
+}
+
+@media screen and (max-width : 767px){
+	.wrapper{
+		width:100%!important; min-width:100%!important;
+		margin-left:0 !important; margin-right:0 !important;
+		padding-left:35px !important; padding-right:35px !important;
+	}
+}
+
+@media screen and (max-width : 479px){
+	.wrapper{
+		width:100%!important; min-width:100%!important;
+		margin-left:0 !important; margin-right:0 !important;
+		padding-left:30px !important; padding-right:30px !important;
+	}
+}
+
+
+/*
+#####################################################################
+
+	Content [#contents]
+	
+#####################################################################
+*/
+
+#contents{
+	/*min-width: 980px;*/
+	overflow:hidden;
+}
+
+@media screen and (max-width : 479px){
+	#contents{ width:100% !important; min-width:100% !important;}
+}
+
+/*
+#####################################################################
+
+	Header [header]
+	
+#####################################################################
+*/
+
+header .logo,
+header .logo img{ 
+	width:133px;
+	height:28px;line-height: 28px;
+}
+
+@media screen and (max-width : 479px){
+	header{ width:100%!important; min-width:100%!important;}
+}
+
+/* ****************************************************
+ Option
+***************************************************** */
+
+/* Always fixed up and down, right */
+.head-top-fixed,.head-bottom-fixed{ position:fixed; left:0; width:100%; z-index:10;}
+.head-top-fixed{ top:0; }
+.head-bottom-fixed{ bottom:0;}
+
+.head-left-fixed,.head-right-fixed{ position:fixed; top:0; height:100%; z-index:10;}
+.head-left-fixed{ left:0; }
+.head-right-fixed{ right:0;}
+
+/* Fixed within upper, lower, left */
+.head-top-absolute,.head-bottom-absolute{ position: absolute; left:0; width:100%; z-index:10;}
+.head-top-absolute{ top:0; }
+.head-bottom-absolute{ bottom:0;}
+
+.head-left-absolute,.head-right-absolute{ position:absolute; top:0; height:100%; z-index:10;}
+.head-left-absolute{ left:0; }
+.head-right-absolute{ right:0;}
+
+
+/* ****************************************************
+  Logo [.logo]
+***************************************************** */
+
+header .logo{}
+
+/* ****************************************************
+  Header Box [.header_box]
+***************************************************** */
+
+/*header_box01*/
+.header_box01{}
+.header_box02{}
+.header_box03{}
+
+/*
+#####################################################################
+
+	Footer [footer]
+	
+#####################################################################
+*/
+
+footer { position:relative;}
+footer .wrapper{ padding-top:95px; padding-bottom:95px;}
+
+@media screen and (max-width : 479px){
+	footer .wrapper{ padding-top:100px; padding-bottom:100px;}
+	footer{ width:100%!important; min-width:100%!important;}
+}
+
+/* ****************************************************
+  Scroll【.mv-scroll】
+***************************************************** */
+
+footer .mv-scroll{ min-width:130px;}
+footer .mv-scroll .flexbox > div{ word-break:normal !important;}
+footer .mv-scroll .icon-txt{ display:inherit; margin-bottom: 50px; min-width: 250px;}
+footer .mv-scroll .icon-txt .p1-EN{ font-size:10px; min-width:145px;/*旧ブラウザ対策*/ letter-spacing:0.6rem; margin-top:2px;  word-wrap: normal !important;/*折り返し対策*/}
+footer .mv-scroll .icon-txt .icon-box{ width:79px;}
+
+@media screen and (max-width : 767px){
+	footer .mv-scroll{ min-width: 60px;}
+	footer .mv-scroll .icon-txt .p1-EN{ font-size:9px; margin-top:5px; min-width:125px;}
+}
+footer .mv-scroll .icon-txt:hover .icon-box{ width:65px;}
+
+
+
+/* ****************************************************
+  Logo [.logo]
+***************************************************** */
+
+footer .logo{}
+
+/* ****************************************************
+  Footer Box [.footer_box]
+***************************************************** */
+.footer_box01{}
+.footer_box02{}
+.footer_box03{}
+
