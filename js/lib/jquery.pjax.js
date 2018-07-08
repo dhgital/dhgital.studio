@@ -212,7 +212,7 @@ var MODULE;
                  */
                 this.UUID = MODULE.UUID();
                 /**
-                 * Viewの遷移状態を持つ
+                 * Having transition state of View
                  *
                  * @property state_
                  * @type {State}
@@ -246,7 +246,7 @@ var MODULE;
                 this.model_ = model_;
                 this.controller_ = controller_;
                 this.context_ = context_;
-                // VIEWの待ち受けるイベントに登録されるハンドラ
+                // A handler registered in the event that VIEW stands by
                 this.handlers = {
                     click: function () {
                         _this.controller_.click(arguments);
@@ -468,14 +468,14 @@ var MODULE;
                  */
                 this.UUID = MODULE.UUID();
                 /**
-                 * Controllerの遷移状態を持つ
+                 * Have Controller transition state
                  *
                  * @property state_
                  * @type {State}
                  */
                 this.state_ = 0 /* blank */;
                 /**
-                 * 拡張のプロパティを指定する
+                 * Specify extension properties
                  *
                  * @property PROPERTIES
                  * @type {String}
@@ -486,31 +486,31 @@ var MODULE;
             Template.prototype.EXTEND = function (context) {
                 if (context instanceof MODULE.DEF.NAMESPACE) {
                     if (context instanceof jQuery) {
-                        // コンテクストへの変更をend()で戻せるようadd()
+                        // Change to context to end() Add in add()
                         context = context.add();
                     }
-                    // コンテクストに関数を設定
+                    // Set function in context
                     this.REGISTER_FUNCTION(context);
-                    // コンテクストにメソッドを設定
+                    // Set method in context
                     this.REGISTER_METHOD(context);
                 }
                 else {
                     if (context !== this.EXTENSION) {
-                        // コンテクストを拡張に変更
+                        // Change context to extended
                         context = this.EXTENSION;
                     }
-                    // コンテクストに関数を設定
+                    // Set function in context
                     this.REGISTER_FUNCTION(context);
                 }
-                // コンテクストのプロパティを更新
+                // Update context properties
                 this.UPDATE_PROPERTIES(context);
                 return context;
             };
             /**
-             * 拡張モジュール本体のスコープ。
+             * Scope of expansion module body.
              *
              * @method REGISTER
-             * @param {Any} [params]* パラメータ
+             * @param {Any} [params]* Parameters
              */
             Template.prototype.REGISTER = function (model) {
                 var S = this;
@@ -525,7 +525,7 @@ var MODULE;
                     return args instanceof Array ? model.MAIN.apply(model, args) : args;
                 };
                 this.EXTEND(this.EXTENSION);
-                // プラグインに関数を設定してネームスペースに登録
+                // Set function in plugin and register in namespace
                 window[MODULE.DEF.NAMESPACE] = window[MODULE.DEF.NAMESPACE] || {};
                 if (MODULE.DEF.NAMESPACE.prototype) {
                     MODULE.DEF.NAMESPACE[MODULE.DEF.NAME] = MODULE.DEF.NAMESPACE.prototype[MODULE.DEF.NAME] = this.EXTENSION;
@@ -931,14 +931,14 @@ var MODULE;
                                 this.task = taskable ? new DB.STATEFUL.TaskUp(task) : new DB.STATEFUL.TaskDown(task);
                             }
                             Default.prototype.open = function () {
-                                // 無効
+                                // Disabled
                                 return this.task;
                             };
                             Default.prototype.resolve = function () {
-                                // 無効
+                                // Disabled
                             };
                             Default.prototype.reject = function () {
-                                // 常に処理可能
+                                // Always processable
                                 this.task.reject();
                             };
                             return Default;
@@ -950,16 +950,16 @@ var MODULE;
                                 _super.apply(this, arguments);
                             }
                             Blank.prototype.open = function () {
-                                // 新規接続
+                                // New connection
                                 this.connect();
                                 return this.task;
                             };
                             Blank.prototype.resolve = function () {
-                                // 接続のコールバックによりタスクを処理
+                                // Handle task with connection callback
                                 this.open();
                             };
                             Blank.prototype.reject = function () {
-                                // 常に処理可能
+                                // Always processable
                                 this.task.reject();
                             };
                             return Blank;
@@ -971,14 +971,14 @@ var MODULE;
                                 _super.apply(this, arguments);
                             }
                             Initiate.prototype.open = function () {
-                                // 無効
+                                // Disabled
                                 return this.task;
                             };
                             Initiate.prototype.resolve = function () {
-                                // 接続のコールバックによりタスクを処理
+                                // Handle task with connection callback
                             };
                             Initiate.prototype.reject = function () {
-                                // 常に処理可能
+                                // Always processable
                                 this.task.reject();
                             };
                             return Initiate;
@@ -991,18 +991,18 @@ var MODULE;
                             }
                             Open.prototype.open = function () {
                                 var _this = this;
-                                // 接続の有効期限を延長
+                                // Extended connection expiration
                                 this.extend();
-                                // 戻り値のオブジェクトを使用したタスクの追加を待ってタスクを処理
+                                // Process the task waiting for the addition of the task using the return value object
                                 setTimeout(function () { return _this.origin.resolve(); }, 1);
                                 return this.task;
                             };
                             Open.prototype.resolve = function () {
-                                // 現接続によりタスクを処理
+                                // Process task with current connection
                                 this.task.resolve();
                             };
                             Open.prototype.reject = function () {
-                                // 常に処理可能
+                                // Always processable
                                 this.task.reject();
                             };
                             return Open;
@@ -1014,16 +1014,16 @@ var MODULE;
                                 _super.apply(this, arguments);
                             }
                             Close.prototype.open = function () {
-                                // 再接続
+                                // Reconnect
                                 this.connect();
                                 return this.task;
                             };
                             Close.prototype.resolve = function () {
-                                // 再接続しコールバックによりタスクを処理
+                                // Reconnect and process task with callback
                                 this.open();
                             };
                             Close.prototype.reject = function () {
-                                // 常に処理可能
+                                // Always processable
                                 this.task.reject();
                             };
                             return Close;
@@ -1455,7 +1455,7 @@ var MODULE;
                     Database.prototype.connect = function () {
                         this.create();
                     };
-                    // 以降、connect()以外からアクセス禁止
+                    // After that, access is prohibited from other than connect ()
                     Database.prototype.create = function () {
                         var _this = this;
                         try {
@@ -1912,7 +1912,7 @@ var MODULE;
                 return ret;
             };
             Utility.compareUrl = function (a, b) {
-                // URLのパーセントエンコーディングの大文字小文字がAndroidのアドレスバーとリンクで異なるためそろえる
+                // Percent of the URL Because the case of the encoding is different for Android address bar and link,
                 a = this.canonicalizeUrl(a);
                 b = this.canonicalizeUrl(b);
                 return a === b;
@@ -2852,12 +2852,12 @@ var MODULE;
                         /* variable define */
                         this.srcDocument_ = this.page_.parser.parse(record.data.jqXHR().responseText, setting.destLocation.href);
                         this.dstDocument_ = document;
-                        // 更新範囲を選出
+                        // Select update range
                         this.area_ = this.chooseArea(setting.area, this.srcDocument_, this.dstDocument_);
                         if (!this.area_) {
                             throw new Error('throw: area notfound');
                         }
-                        // 更新範囲をセレクタごとに分割
+                        // Divide update range by selector
                         this.areas_ = this.area_.match(/(?:[^,]+?|\(.*?\)|\[.*?\])+/g);
                         speedcheck && speed.time.push(speed.now() - speed.fire);
                         speedcheck && speed.name.push('parse(' + speed.time.slice(-1) + ')');
@@ -3038,7 +3038,7 @@ var MODULE;
                             speedcheck && console.log(speed.time);
                             speedcheck && console.log(speed.name);
                             _this.script_('[src][defer]');
-                            // 未定義を返すとエラー
+                            // Error returning undefined
                             return jQuery.when && jQuery.Deferred().resolve();
                         };
                         _this.scroll_(false);
@@ -3051,7 +3051,7 @@ var MODULE;
                         }
                         var scriptwaits = _this.script_(':not([defer]), :not([src])');
                         if (jQuery.when) {
-                            // 1.7.2のthenは壊れてるのでpipe
+                            // 1.7.2 is then broken so pipe
                             var then = jQuery.Deferred().pipe ? 'pipe' : 'then';
                             jQuery.when.apply(jQuery, scriptwaits)[then](function () { return onready(); })[then](function () { return onrender(); })[then](function () { return onload(); });
                         }
@@ -3332,7 +3332,7 @@ var MODULE;
                             this.restoreScript_(log);
                         }
                         ;
-                        // リストアップ
+                        // List up
                         (function (element) {
                             var defer = _this.model_.isDeferrable && jQuery.Deferred();
                             if (element.hasAttribute('src') && element.getAttribute('src')) {
@@ -4287,7 +4287,7 @@ var MODULE;
                         window.history.pushState(null, document.title, setting.destLocation.href);
                         return;
                     case !event.originalEvent && !jQuery(document).has(context).length:
-                        // clickメソッド用
+                        // For click method
                         this.fallback(event);
                         return;
                 }
@@ -4307,7 +4307,7 @@ var MODULE;
                         event.preventDefault;
                         return;
                     case !event.originalEvent && !jQuery(document).has(context).length:
-                        // submitメソッド用
+                        // For submit method
                         this.fallback(event);
                         return;
                 }
@@ -4333,7 +4333,7 @@ var MODULE;
                         this.location.href = this.util_.normalizeUrl(window.location.href);
                         return;
                     case !this.comparePageByUrl(setting.origLocation.href, window.location.href):
-                        // pjax処理されないURL変更によるページ更新
+                        // Page refresh by URL change without pjax processing
                         this.fallback(event);
                         this.location.href = this.util_.normalizeUrl(window.location.href);
                         return;

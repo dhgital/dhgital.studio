@@ -3,55 +3,39 @@
 
 /*
 #####################################################################
-
-	Table of Contents [INDEX]
-	
+	Table of Contents [Index]
 #####################################################################
 
 
 ************************** Layout Module [layout-module] **************************
 
 　＿First View Module 05 [.firstview-module-05]
-
 　＿Navigation Module 01 [.navigation-module-01]
-
 　＿Gallery Module 06 [.gallery-module-06]
-
 　＿Gallery Module 07 [.gallery-module-07]
-
 　＿About Module 08 [.about-module-08]
-
 　＿About Module 09 [.about-module-09]
-
 　＿About Module 10 [.about-module-10]
-
 　＿Detail Module 05 [.detail-module-05]
 
 **************************  [Individual Page] **************************
 
 ■Tops [#TOP]
-
 ■Works [#WORKS]
-
 ■About [#ABOUT]
-
 ■Contact [#CONTACT]
 
 */
 
-
 /*
 #####################################################################
-
 	Layout Module [layout-module]
-	
 #####################################################################
 */
 
 /* ****************************************************
   Common Style 01 [.common-style-01] 
 ***************************************************** */
-
 .common-style-01 .header_container{ min-height:90px;}
 
 @media all and (-ms-high-contrast:none) {/*IE11 Hack*/
@@ -67,7 +51,7 @@
 
 /*Logo*/
 .common-style-01 .logo,
-.common-style-01 .logo img{  width: auto; height:60px;line-height: 60px; }
+.common-style-01 .logo img{  width: auto; height:75px;line-height: 75px; }
 .common-style-01 .logo{ z-index:10;}
 
 @media screen and (max-width : 767px){
@@ -78,7 +62,6 @@
 @media screen and (max-width : 479px){
 	.common-style-01 .logo, .common-style-01 .logo img{ height:37px;line-height: 37px;}
 }
-
 
 /*Navigation*/
 .common-style-01 .Navigation a.active{ color:#318fc5;}
@@ -152,7 +135,6 @@
 	}
 }
 
-
 /*Right Area*/
 .common-style-01 .button {
 	min-width: 110px; padding:10px 8px 8px 16px !important;
@@ -160,15 +142,12 @@
 }
 .common-style-01 .button::after{font-size:0.7rem; }
 
-
 /*Catch Copy*/
 .common-style-01 .mv-txt h2{ word-break:break-all !important;}
-
 
 /* ****************************************************
   First View Module 05 [.firstview-module-05]
 ***************************************************** */
-
 .firstview-module-05{ position: relative; min-height: 480px;}
 
 /*Header*/
@@ -269,11 +248,9 @@
 	bottom: 80px; left: 50%; margin-left: -12px;
 }
 
-
 /* ****************************************************
   First View Module 06 [.firstview-module-06]
 ***************************************************** */
-
 .firstview-module-06{ position: relative; min-height: 480px;}
 
 /*Header*/
@@ -378,7 +355,6 @@
 	.firstview-module-06 .thum-title .bg-white{  padding-top:38px; padding-bottom:18px;}
 	.firstview-module-06 .thum-title h3{font-size: 7.5vw !important; letter-spacing: 0.3rem; }
 	.firstview-module-06 .thum-title .p1-EN{ font-size:0.5rem !important;}
-
 }
 @media screen and (max-width : 479px){
 	.firstview-module-06 .thum-title .bg-white{  padding-top:28px; padding-bottom:16px;}
@@ -390,9 +366,7 @@
 	.backgroundcliptext .thum-title .mask-bg04{ background-position:-144px -581px;/*Adjusting the position of the background*/ }
 	.backgroundcliptext .thum-title .mask-bg05{ background-position:371px -755px;/*Adjusting the position of the background*/ }
 	.backgroundcliptext .thum-title .mask-bg06{ background-position:252px -634px;/*Adjusting the position of the background*/ }
-
 }
-
 
 /*Scroll Area*/
 .firstview-module-06 .mv-scroll{ min-width:125px;}
@@ -412,11 +386,9 @@
 }
 
 
-
 /* ****************************************************
   Global Navigation Module 01 [.globalNavigation-module-01]
 ***************************************************** */
-
 /*Entire, Navigation Icon*/
 .globalNavigation-module-01{
 	top:0; right:0; position:fixed !important;overflow: hidden;
@@ -454,7 +426,6 @@
 	.globalNavigation-module-01 .nav_txt{ display:none;}
 }
 
-
 /*Navigation*/
 .globalNavigation-module-01 .Navigation{
 	height:100vh; min-height:600px; padding-top:30px; margin-top:-200px;/*Navigation icon minus minus*/
@@ -491,9 +462,7 @@
 /* ****************************************************
   Gallery Module 06 [.gallery-module-06]
 ***************************************************** */
-
 .gallery-module-06{ position:relative; overflow:hidden;}
-
 
 /*Image*/
 .gallery-module-06 .thumbnail .thum-box{ background-color:#000;}
@@ -549,7 +518,6 @@
 	.gallery-module-06 .thum-title .more-btn .p1-EN{font-size: 0.5rem !important; }
 }
 
-
 /*Setting at hover time*/
 .gallery-module-06 .thumbnail .thum-box a,
 .gallery-module-06,
@@ -598,7 +566,6 @@
 /* ****************************************************
   Gallery Module 07 [.gallery-module-07]
 ***************************************************** */
-
 .gallery-module-07{ position:relative;}
 
 /*Slide Area [slides]*/
@@ -655,11 +622,11 @@
 	background-color:currentcolor;
 }
 
-
-
 .gallery-module-07 .flex-control-paging li a.flex-active:before{
-	-webkit-animation: galleryModule 07link-animeline 0.6s cubic-bezier(0.19, 1, 0.22, 1);-webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*実行後のスタイルの維持*/
-	animation: galleryModule 07link-animeline 0.6s cubic-bezier(0.19, 1, 0.22, 1); -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*実行後のスタイルの維持*/
+	-webkit-animation: galleryModule 07link-animeline 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+	-webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*Maintaining style after execution*/
+	animation: galleryModule 07link-animeline 0.6s cubic-bezier(0.19, 1, 0.22, 1); 
+	-webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*Maintaining style after execution*/
 }
 @-webkit-keyframes galleryModule 07link-animeline { 0% { width:0;} 100% {width:70px;} }
 @keyframes galleryModule 07link-animeline { 0% {  width:0;} 100% { width:70px;} }
@@ -667,8 +634,8 @@
 @media screen and (max-width : 991px){
 	.gallery-module-07 .flex-control-nav { height: 215px; }
 	.gallery-module-07 .flex-control-paging li a.flex-active:before{
-		-webkit-animation: galleryModule 07link-animelineSP 0.6s cubic-bezier(0.19, 1, 0.22, 1);-webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*実行後のスタイルの維持*/
-		animation: galleryModule 07link-animelineSP 0.6s cubic-bezier(0.19, 1, 0.22, 1); -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*実行後のスタイルの維持*/
+		-webkit-animation: galleryModule 07link-animelineSP 0.6s cubic-bezier(0.19, 1, 0.22, 1); -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*Maintaining style after execution*/
+		animation: galleryModule 07link-animelineSP 0.6s cubic-bezier(0.19, 1, 0.22, 1); -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards;/*Maintaining style after execution*/
 	}
 	.gallery-module-07 .flex-control-nav { top:0; margin-top:0; right: -8px; }
 	.gallery-module-07 .flex-control-paging li a{padding:20px 15px 20px 25px;}
@@ -724,16 +691,12 @@
 	.gallery-module-07 .flex-direction-nav a.flex-next:after{ right:35px;}
 }
 
-
 /* ****************************************************
   About Module 08 [.about-module-08]
 ***************************************************** */
-
 .about-module-08{ position:relative;}
-
 .about-module-08 h3{ letter-spacing: 0.1rem; margin-bottom:8px;}
 .about-module-08 .more-btn .p1-EN{ line-height: 20px;}
-
 .about-module-08 .more-btn a:hover .icon-box{ width:35px;}
 
 @media screen and (max-width : 1199px){
@@ -755,7 +718,6 @@
 /* ****************************************************
   About Module 09 [.about-module-09]
 ***************************************************** */
-
 .about-module-09{ position:relative;}
 .about-module-09 .wrapper{ padding-top:170px; margin-bottom:140px;}
 
@@ -792,20 +754,14 @@
 	.about-module-09 h2 img{ width:70vw; height:auto;}
 	.about-module-09 .heading1{ font-size:6.5vw !important;}
 	.about-module-09 .direction-column-tb .margin-b-l{ margin-bottom:10px !important;}
-
 }
-
 
 /* ****************************************************
   About Module 10 [.about-module-10]
 ***************************************************** */
-
 .about-module-10{ position:relative;}
-
 .about-module-10 h3{ letter-spacing: 0.1rem;}
-
 .about-module-10 .padding-tb-xl{ padding-top:160px !important; padding-bottom:160px !important;}
-
 
 @media screen and (max-width : 767px){
 	.about-module-10 .padding-tb-xl{ padding-top:120px !important; padding-bottom:120px !important;}
@@ -819,13 +775,10 @@
 /* ****************************************************
   Detail Module 05 [.detail-module-05]
 ***************************************************** */
-
 .detail-module-05{ position:relative;}
-
 .detail-module-05 .txt-box{ padding-left: 50px; max-width:820px;}
 .detail-module-05 .flex-md-6 .txt-box{ max-width:550px; }
 .detail-module-05 .wrapper{ padding:160px 65px !important; }
-
 
 @media screen and (min-width : 2559){
 	.detail-module-05 .flex-md-6 .txt-box{ max-width:650px; }
@@ -861,7 +814,6 @@
 	.detail-module-05 .flex-md-10 .txt-box{ max-width:600px; }
 }
 
-
 @media screen and (max-width : 767px){
 	.detail-module-05 .story-wrp{max-width: 25%;}
 	.detail-module-05 .story-wrp .icon-txt { margin-top: 200px; }
@@ -880,19 +832,14 @@
 
 /*
 #####################################################################
-
 	Common Designation
-	
 #####################################################################
 */
-
 /* ****************************************************
   Common Designation
 ***************************************************** */
-
 .title,
 .footer-suvArea{ padding-bottom:195px; padding-top:175px; }
-
 .footer-suvArea .link.margin-b-xs{ margin-bottom:30px !important;}
 
 @media screen and (max-width : 767px){
@@ -908,7 +855,6 @@
 /* ****************************************************
   Title [.title]
 ***************************************************** */
-
 .title h2{ letter-spacing:1.0rem !important; display:inline-block; position:relative; margin-right:-30px;}
 .title h2:before{
 	content:''; display:block; position:absolute; background-color:currentcolor;
@@ -929,7 +875,6 @@
 /* ****************************************************
   Footer Sub Area [.footer-suvArea]
 ***************************************************** */
-
 .footer-suvArea{}
 
 @media screen and (max-width : 767px){
@@ -943,29 +888,21 @@
 
 /*
 #####################################################################
-
 	Tops [#TOP]
-	
 #####################################################################
 */
-
 #TOP{}
-
 
 /*
 #####################################################################
-
 	Works [#WORKS]
-	
 #####################################################################
 */
-
 #WORKS{}
 
 /* ****************************************************
   List [.list]
 ***************************************************** */
-
 #WORKS.list .firstview-module-05{ min-height: 200px;}
 
 @media screen and (max-width : 767px){
@@ -979,28 +916,19 @@
 /* ****************************************************
   Detailed [.detail]
 ***************************************************** */
-
 #WORKS.detail{}
-
 #WORKS.detail .story .tatenaga-img img{ margin-bottom:-1px;}/*Countermeasure against 1px displacement of portrait Image*/
 
 /*Gallery*/
 #WORKS.detail .swipe_container {}
 
-
-
 /*
 #####################################################################
-
 	About [#ABOUT]
-	
 #####################################################################
 */
-
 #ABOUT{}
-
 #ABOUT .firstview-module-05{ min-height: 200px;}
-
 #ABOUT .footer-suvArea .p1-EN.small4{ letter-spacing:0.1rem;}
 
 @media screen and (max-width : 767px){
@@ -1014,11 +942,8 @@
 
 /*
 #####################################################################
-
 	Contact [#CONTACT]
-	
 #####################################################################
 */
-
 #CONTACT{}
 

@@ -1,11 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
 /*
 #####################################################################
-
 	Table of Contents [Index]
-	
 #####################################################################
 
 ■Reset
@@ -13,31 +10,22 @@
 
 /*
 #####################################################################
-
 	Reset
-	
 #####################################################################
 */
-
 * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;}
 h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;margin:0; padding:0; vertical-align: baseline; outline:0; line-height:0.7em;}
 ol, ul,ol li,ul li{list-style: none;}
 body, div,dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6,
 pre, form, fieldset, input, textarea,p, blockquote, th, td, figure{margin: 0;padding: 0; border:none;}
-
 tablel{border-collapse: collapse; border-spacing: 0;}
-
 img{ vertical-align:bottom;}
-
 
 /*
 #####################################################################
-
 	Initial setting
-	
 #####################################################################
 */
-
 body,
 html{
 	color: #1a1a1a;
@@ -45,3 +33,4 @@ html{
 	letter-spacing:0.03rem;
 	background-color:#FFFFFF;
 }
+

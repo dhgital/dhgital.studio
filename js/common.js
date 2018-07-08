@@ -5,21 +5,21 @@ $(function(){
 	);
 	
 	
-	jQuery.event.add(window,"load",function() { // 全ての読み込み完了後に呼ばれる関数
+	jQuery.event.add(window,"load",function() { // Function called after completion of all reading
 	
 	
 	pjaxComplete();
 		
-		/*--------ピージャックス【.pjax】--------*/
+		/*--------PJAX [.pjax] --------*/
 		$(function(){
 			$.pjax({
-				area : '#pjaxContent',// 置き換えるコンテナのID カンマで区切って複数可能
-				link : '.pjax:not([target])',// pjaxを行うリンクを限定（ない場合全てのリンクが対象）
-				ajax: { timeout: 30000 }, // 読み込みにこれ以上かかる場合は通常遷移に移行
-				wait : 1200 // エフェクト分待ち時間を作る
+				area : '#pjaxContent',// Multiple container IDs to be replaced, separated by commas
+				link : '.pjax:not([target])',// Limit links that do pjax (if not applicable for all links)
+				ajax: { timeout: 30000 }, // If it takes more to read, shift to normal transition
+				wait : 1200 // Make an effect wait time
 			});
 			
-			//スマートデバイス判別処理
+			//Smart device identification processing
 			if ((navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 				$(document).bind('pjax:fetch', function(){
 					$('body').css('overflow-y', 'scroll');
@@ -55,19 +55,19 @@ $(function(){
 
 function pjaxComplete(){
 	
-	/*--------イントロ--------*/
+	/*--------Intro--------*/
 	$(function() {
 		
 		if ((navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 			
-			if($("pjaxFadeIn").size()){//.pjaxBgColourInクラスがある場合のみ
+			if($("pjaxFadeIn").size()){//.Only if there is a pjaxBgColourIn class
 			}else{
 				$("body").addClass("pjaxFadeIn");
 				$('body').css('overflow-y', 'scroll');
 			}
 			
 		}else{
-			if($("pjaxBgColourIn").size()){//.pjaxBgColourInクラスがある場合のみ
+			if($("pjaxBgColourIn").size()){//.Only if there is a pjaxBgColourIn class
 			}else{
 				$("body").addClass("pjaxBgColourIn");
 				$('body').css('overflow-y', 'scroll');
@@ -81,53 +81,53 @@ function pjaxComplete(){
 
 function int(){
 	
-	/*--------アニメーション設定制御--------*/
+	/*--------Animation setting control--------*/
 	$(function(){
 		
-		/*separateアニメーション設定*/
+		/*separate animation setting*/
 		/*$(".separate-w-m").wrap('<div class="anmation_container separate_anm-extend" />');*/
 		separateAnimation="animation_box fade-in anm_speed-m "
 		
-		/*アニメーションの定義*/
-		animation01 ="animation_box fade-in translate-bottom-in-s anm_speed-l "/*下から(小)*/
-		animation02 ="animation_box fade-in translate-bottom-in-m anm_speed-l "/*下から(中)*/
-		animation04 ="animation_box fade-in translate-bottom-in-l anm_speed-l "/*下から(大)*/
-		animation03 ="animation_box fade-in translate-left-in-l anm_speed-l "/*左から(大)*/
-		animation06 ="animation_box fade-in translate-right-in-l anm_speed-l "/*右から(大)*/
-		animation07 ="animation_box fade-in translate-top-in-l anm_speed-l "/*上から(大)*/
-		animation05 ="animation_box fade-in anm_speed-l "/*フェードインのみ*/
+		/*Definition of animation*/
+		animation01 ="animation_box fade-in translate-bottom-in-s anm_speed-l "/*From the bottom(Small)*/
+		animation02 ="animation_box fade-in translate-bottom-in-m anm_speed-l "/*From the bottom(Medium)*/
+		animation04 ="animation_box fade-in translate-bottom-in-l anm_speed-l "/*From the bottom(Large)*/
+		animation03 ="animation_box fade-in translate-left-in-l anm_speed-l "/*From the left (large)*/
+		animation06 ="animation_box fade-in translate-right-in-l anm_speed-l "/*From the right (large)*/
+		animation07 ="animation_box fade-in translate-top-in-l anm_speed-l "/*From above (Large)*/
+		animation05 ="animation_box fade-in anm_speed-l "/*Fade in only*/
 		
-		/*背景カラーアニメーション定義*/
+		/*Background color animation definition*/
 		efc_bgColour="efc-bgColour ";
 		efc_bgColourInline="efc-bgColour efc-inline ";
 		effect_box="effect_box ";
 		
-		/******【共通モジュール】ギャラリー一覧 ********/
+		/****** [Common Module] Gallery list ********/
 		$('.gallery-module-06').addClass("performance anmation_container");
 		$('.gallery-module-06 .thum-box img').addClass(animation04 + "anm_delay-m");
 		$('.gallery-module-06 .more-btn').addClass(animation03 + "anm_delay2-s");
 		
-		/******【共通モジュール】タイトル ********/
+		/****** [Common Module] Title ********/
 		$('.title').addClass("anmation_container");
 		$('.title h2').addClass(animation04 + "anm_delay-s");
 		
 		
 		$(function(){
-			/*アニメーション表示制御*/
+			/*Animation display control*/
 			$('.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-				if (isInView) {//要素が見えたとき		
-					if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+				if (isInView) {//When an element is visible		
+					if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 						$(this).addClass("active");
 					}
 				}
 			});
 			$('.performance.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-				if (isInView) {//要素が見えたとき		
-					if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+				if (isInView) {//When an element is visible		
+					if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 						$(this).addClass("active");
-					}else if (visiblePartY == 'top'){//要素の上が表示域に入ってるとき
+					}else if (visiblePartY == 'top'){//When the top of the element is in the display area
 						$(this).addClass("active");
-					}else if (visiblePartY == 'bottom'){//要素の下が表示域に入ってるとき
+					}else if (visiblePartY == 'bottom'){//When the bottom of the element is in the display area
 						$(this).addClass("active");
 					}
 				}
@@ -137,23 +137,23 @@ function int(){
 	});
 
 
-	/*--------ページごとの処理--------*/
-	var pageId = ($('body > div').attr('id'));//bodyのIDを取得
+	/*--------Processing by page--------*/
+	var pageId = ($('body > div').attr('id'));//Obtain ID of body
 	
-	//トップページの処理
+	//Top page processing
 	if( pageId == 'TOP'){ loadTop(); loadCommon();}
-	//ワークスページの処理
+	//Works page processing
 	else if( pageId == 'WORKS'){ loadCommon(); loadWorks(); }			
-	//アバウトページの処理
+	//About page processing
 	else if( pageId == 'ABOUT'){ loadCommon(); loadAbout(); }					
-	//その他ページの処理
+	//Other page processing
 	else{ loadCommon();}
 }
 
-/******* ページ共通の処理 *********/
+/******* Process common to pages *********/
 function loadCommon() {
 	
-	/*--------ナビアイコン（ハンバーガーメニュー）【.n_hamburger】--------*/
+	/*--------Navigation icon（Hamburger menu） [.n_hamburger] --------*/
 	$(function(){	
 		$('.nav_icon a').on('click touchend', function() {
 			$('.globalNavigation-module-01').toggleClass("active");
@@ -162,32 +162,32 @@ function loadCommon() {
 			return false;
 		});
 		
-		$('.nav_icon a').on({'mouseenter touchstart': function() {// マウスオーバー時の処理	
+		$('.nav_icon a').on({'mouseenter touchstart': function() {// Processing at mouseover	
 			if($('.n_hamburger02').hasClass("active")){}else{ $('.n_hamburger02').addClass("hover"); }
 			return false;
 		  },
-		  'mouseleave touchend': function() {// マウスアウト時の処理
+		  'mouseleave touchend': function() {// Processing at mouse-out
 			$('.n_hamburger02').removeClass("hover");
 			return false;
 		  }
 		});
 	});
 	
-	/*--------ホバーアニメ【.border_anm01】--------*/
+	/*--------Hover animation [.border_anm01] --------*/
 	$(function(){	
-		$('.border_anm01 a').on({'mouseenter touchstart': function() {// マウスオーバー時の処理	
+		$('.border_anm01 a').on({'mouseenter touchstart': function() {// Processing at mouseover	
 			$('.border_anm01').addClass("hover");
 			return false;
 		  },
-		  'mouseleave touchend': function() {// マウスアウト時の処理
+		  'mouseleave touchend': function() {// Processing at mouse-out
 			$('.border_anm01').removeClass("hover");
 			return false;
 		  }
 		});
 	});
 	
-	/*--------スクロールイージング--------*/ 
-	// Mac(iPhone ipad 除外)
+	/*--------Scroll easing--------*/ 
+	// Mac(iPhone ipad Exclusion)
 	var ua = navigator.userAgent.toLowerCase();
 	var isMac = ((ua.indexOf('mac') > -1) && (ua.indexOf('os') > -1)) && !((ua.indexOf('iphone') > -1) || (ua.indexOf('ipad') > -1) || (ua.indexOf('windows') > -1));
 	 
@@ -214,43 +214,43 @@ function loadCommon() {
 		});
 	}
 	
-	/*--------スムーススクロール【smoothScroll】--------*/
+	/*--------Smooth scroll [smoothScroll] --------*/
 	$(function() {
 		smoothScroll.init({
-			selector: '[data-scroll]',				// スムーススクロールが有効なリンクに付ける属性
-			selectorHeader: '[data-scroll-header]',		// 固定ナビに付ける属性
-			speed: 600,						// 到達するまでの総時間(ミリ秒)
-			easing: 'easeInOutCubic',			// スピードの種類
-			offset: -10,							// 到達場所からズラすピクセル数
-			updateURL: true,					// URLを[#〜]に変更するか？
-			callback: function () {}				// コールバック関数 (到達時に実行される関数)
+			selector: '[data-scroll]',				// Smooth Attributes attached to scroll-enabled links
+			selectorHeader: '[data-scroll-header]',		// Attributes attached to fixed navigation
+			speed: 600,						// Total time to reach (ms)
+			easing: 'easeInOutCubic',			// Types of speed
+			offset: -10,							// Number of pixels that are out of reach
+			updateURL: true,					// Would you like to change the URL to [# ~]?
+			callback: function () {}				// Callback function (function executed upon arrival)
 		}) ;
 	
 	});
 	
-	/*--------ホバーアニメ--------*/
+	/*--------Hover animation--------*/
 	$(function(){
 		
-		$('.link-animeline').on({'mouseenter touchstart': function() {// マウスオーバー時の処理	
+		$('.link-animeline').on({'mouseenter touchstart': function() {// Processing at mouseover	
 			$(this).addClass("hover");
 		  },
-		  'mouseleave touchend': function() {// マウスアウト時の処理
+		  'mouseleave touchend': function() {// Processing at mouse-out
 			$(this).removeClass("hover");
 			
 		  }
 		});
-		$('.gallery-module-06').on({'mouseenter touchstart': function() {// マウスオーバー時の処理	
+		$('.gallery-module-06').on({'mouseenter touchstart': function() {// Processing at mouseover	
 			$(this).addClass("hover");
 		  },
-		  'mouseleave touchend': function() {// マウスアウト時の処理
+		  'mouseleave touchend': function() {// Processing at mouse-out
 			$(this).removeClass("hover");
 			
 		  }
 		});
-		$('.gallery-module-07 .flexslider .slides li a').on({'mouseenter touchstart': function() {// マウスオーバー時の処理	
+		$('.gallery-module-07 .flexslider .slides li a').on({'mouseenter touchstart': function() {// Processing at mouseover	
 			$(this).addClass("hover");
 		  },
-		  'mouseleave touchend': function() {// マウスアウト時の処理
+		  'mouseleave touchend': function() {// Processing at mouse-out
 			$(this).removeClass("hover");
 			
 		  }
@@ -260,7 +260,7 @@ function loadCommon() {
 	});
 
 	
-	/*--------画像のみ右クリックとドラッグを禁止--------*/
+	/*--------Do not right-click and drag images only--------*/
 	$(function(){	
 		$('img').attr('onmousedown', 'return false');
 		$('img').attr('onselectstart', 'return false');
@@ -268,54 +268,54 @@ function loadCommon() {
 	});
 }
 
-/******* TOPページの処理 *********/
+/******* TOP page processing *********/
 function loadTop() {
 	
-	/*--------アニメーション設定制御--------*/
+	/*--------Animation setting control--------*/
 	$(function(){
-		/******【個別ページ】トップページ ******/
-		/*ファーストビュー*/
+		/****** [Individual page] top page ******/
+		/*First view*/
 		$('#TOP .firstview-module-05').addClass("performance anmation_container");
 		$('#TOP .firstview-module-05 h2').addClass(efc_bgColourInline + "e_bg-white");
 		$('#TOP .firstview-module-05 h2 img').addClass(effect_box);
-		 /*プロジェクト*/
+		 /*project*/
 		$('#TOP .gallery-module-07').addClass("performance anmation_container");
 		$('#TOP .gallery-module-07 .flexslider').addClass(animation04 + "anm_delay-m");
-		/*フッターサブエリア */
+		/*Footer sub area */
 		$("#TOP .footer-suvArea .separate-w-m").wrap('<div class="anmation_container separate_anm-extend" />');
 		$("#TOP .footer-suvArea .separate-w-m").addClass(separateAnimation);
 	
 	});
-	/*アニメーション表示制御*/
+	/*Animation display control*/
 	$(function(){
 		$('.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 		$('.performance.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'top'){//要素の上が表示域に入ってるとき
+				}else if (visiblePartY == 'top'){//When the top of the element is in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'bottom'){//要素の下が表示域に入ってるとき
+				}else if (visiblePartY == 'bottom'){//When the bottom of the element is in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 	});
 	
-	/*トップページ*/
+	/*top page*/
 	$('#TOP .firstview-module-05 h2.efc-bgColour').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-	if (isInView) {//要素が見えたとき
+	if (isInView) {//When an element is visible
 		effect_wrp='#TOP .firstview-module-05 h2 .effect_wrp';
 		effect_box='#TOP .firstview-module-05 h2 .effect_box';		
-			if(!($(".TOP01_active").size())){//.view_activeクラスがない場合のみ
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
-					if(!($(effect_wrp).size())){//.effect_wrpクラスがない場合のみ
+			if(!($(".TOP01_active").size())){//.Only when there is no view_active class
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
+					if(!($(effect_wrp).size())){//.Only when there is no effect_wrp class
 						efcStart();
 						$(this).addClass('active');
 						$(this).addClass('TOP01_active');
@@ -329,18 +329,18 @@ function loadTop() {
 		}
 		
 		function efcStart(){
-		/*指定タグの上位にタグを追加*/
+		/*Add tags above specified tag*/
 		$(effect_box).wrap('<div class="effect_wrp" />');
 		$(effect_wrp).wrap('<div class="effect_container" />');
 		}
 		function efcEnd(){
-			/*指定タグの上位のタグを削除*/
+			/*Delete tags above the specified tag*/
 			$(effect_wrp).unwrap();
 			$(effect_box).unwrap();
 		}
 	});
 	
-	/*============= 【スライダーflexslider】 ============*/
+	/*=============  [Flex Slider]  ============*/
 	$(function(){
 		simple_slider();
 	});
@@ -348,89 +348,91 @@ function loadTop() {
 	function simple_slider() {
 		$('.gallery-module-07 .flexslider').flexslider({
 		animation: "slide", //fade or slide
-		easing:"easeOutExpo",//デフォルトは"swing"
-		animationLoop: true, //スライドをループ,
-		slideshow:false,//“true”で自動スライドショーになる
-		slideshowSpeed:4000, //スライドする間隔のスピード
-		animationSpeed:600, //アニメーション時の動作のスピード
-		initDelay:0,//スライドショーが始まるまでの遅延。デフォルトは0で、ミリ秒単位で指定できます。
-		//itemWidth: 300, //カルーセルを設定した際の画像１枚の幅
-		//itemMargin: 30, //カルーセルの画像１枚のマージン
-		//minItems: 1, //カルーセルの画像を最低で何枚を一画面に表示するか
-		//maxItems: 1, //カルーセルの画像を最大で何枚を一画面に表示するか
-		//smoothHeight:true, //スライダーの高さが変わるとき、高さをアニメーションしながら変える
-		//randomize:true, //スライドの順番をランダムにする
-		//pasneOnHover:true, //マウスオーバーでスライドショーを止める
-		//video:false,動画をスライドに含むことを許可するかどうか。デフォルトはfalseです。
-		controlNav:true,//ナヴィゲーションを表示。デフォルトはtrueで、falseにすると非表示になります。
-		directionNav:true,//両サイドにあるprevとnextのコントロールボタン。デフォルトはtrueで、falseにすると非表示になります。
-		move:1,//カルーセルの画像をスライドで何枚動かすか。0だと全部動かす。デフォルトは0です。
-		prevText:"",//「戻る」のナビゲーションの文字列。デフォルトは"Previous"です。
-		nextText:"",//「進む」のナビゲーションの文字列。デフォルトは"Next"です。
+		easing:"easeOutExpo",//The default is "swing"
+		animationLoop: true, //Slide loop,
+		slideshow:false,//“true”Auto Slide Show in
+		slideshowSpeed:4000, //Speed of sliding interval
+		animationSpeed:600, //Speed of motion during animation
+		initDelay:0,//Delay until slide show begins. The default is 0, which can be specified in milliseconds.
+		//itemWidth: 300, //Width of one image when setting a carousel
+		//itemMargin: 30, //Carousel picture one margin
+		//minItems: 1, //How many images of the carousel should be displayed at a minimum on a single screen
+		//maxItems: 1, //How many images of carousel are displayed on one screen at maximum
+		//smoothHeight:true, //When the height of the slider changes, change the height while animating
+		//randomize:true, //Randomize slide order
+		//pasneOnHover:true, //Stop the slideshow with mouse over
+		//video:false, Whether to allow movies to be included in slides. The default is false.
+
+		controlNav:true,//Prev and next control buttons on both sides. The default is true, false disables it....
+		directionNav:true,//Prev and next control buttons on both sides. The default is true, false disables it.
+		move:1,//How many slide images of the carousel image will be moved. If it is 0, move it all. The default is 0.
+		prevText:"",//String of "back" navigation. The default is "Previous".
+		nextText:"",//A character string of "forward" navigation. The default is "Next".
 		touch:false
 		
 	  });
 	}
 
 }
-/******* WORKSページの処理 *********/
+/******* WORKS page processing *********/
 function loadWorks() {
 	
-	/*--------アニメーション設定制御--------*/
+	/*--------Animation setting control--------*/
 	$(function(){
-		/******【個別ページ】ワークス詳細 ******/
-		/*ファーストビュー*/
+		/****** [Individual page]  Works details ******/
+		/*First view*/
 		$('#WORKS.detail .firstview-module-06').addClass("performance anmation_container");
 		$('#WORKS.detail .firstview-module-06 .thum-title').addClass(efc_bgColour + "e_bg-white");
 		$('#WORKS.detail .firstview-module-06 .thum-title .bg-white').addClass(effect_box);
-		/*冒頭説明*/
+		/*At the beginning*/
 		$('#WORKS.detail .about-module-08 > div').addClass("performance anmation_container");
 		$('#WORKS.detail .about-module-08 > div.detail-boutou .heading4').addClass(animation04);
 		$('#WORKS.detail .about-module-08 > div.detail-credit > div').addClass(animation02 + "anm_delay-s");
 
-		/*ストーリー*/
+		/*story*/
 		$('#WORKS.detail .story > div').addClass("performance anmation_container");
 		$('#WORKS.detail .story > div img').addClass(animation04 + "anm_delay-m");
 		$('#WORKS.detail .story > div .heading2').addClass(animation04 + "anm_delay-l");
 		$('#WORKS.detail .story > div .p1').addClass(animation04 + "anm_delay-xl");
 		$('#WORKS.detail .story > div .story-wrp .flexbox.position-inner-center').addClass(animation05 + "anm_delay-l");
-		/*ギャラリー*/
+		/*gallery*/
 		$('#WORKS.detail .swipe_container').addClass("performance anmation_container");
 		$('#WORKS.detail .swipe_container .thum-box').addClass(animation04 + "anm_delay-m");
-		/*フッターサブエリア */
+		/*Footer sub area */
 		$("#WORKS .footer-suvArea .separate-w-m").wrap('<div class="anmation_container separate_anm-extend" />');
 		$("#WORKS .footer-suvArea .separate-w-m").addClass(separateAnimation);
 
 	});
-	/*アニメーション表示制御*/
+	/*Animation display control*/
 	$(function(){
 		$('.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 		$('.performance.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'top'){//要素の上が表示域に入ってるとき
+				}else if (visiblePartY == 'top'){//When the top of the element is in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'bottom'){//要素の下が表示域に入ってるとき
+				}else if (visiblePartY == 'bottom'){//When the bottom of the element is in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 	});
-	/*ワークス表示制御*/
+	/*Works display control*/
 	$('#WORKS.detail .firstview-module-06 .thum-title.efc-bgColour').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-	if (isInView) {//要素が見えたとき
+	if (isInView) {//When an element is visible
 		effect_wrp='#WORKS .thum-title .effect_wrp';
 		effect_box='#WORKS .thum-title .effect_box';		
-			if(!($(".WORKS01_active").size())){//.view_activeクラスがない場合のみ
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
-					if(!($(effect_wrp).size())){//.effect_wrpクラスがない場合のみ
+			if(!($(".WORKS01_active").size())){//.Only when there is no view_active class
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
+					if(!($(effect_wrp).size())){//.Only when there is no effect_wrp class
+
 						efcStart();
 						$(this).addClass('active');
 						$(this).addClass('WORKS01_active');
@@ -444,12 +446,12 @@ function loadWorks() {
 		}
 		
 		function efcStart(){
-		/*指定タグの上位にタグを追加*/
+		/*Add tags above specified tag*/
 		$(effect_box).wrap('<div class="effect_wrp" />');
 		$(effect_wrp).wrap('<div class="effect_container" />');
 		}
 		function efcEnd(){
-			/*指定タグの上位のタグを削除*/
+			/*Delete tags above the specified tag*/
 			$(effect_wrp).unwrap();
 			$(effect_box).unwrap();
 		}
@@ -458,13 +460,13 @@ function loadWorks() {
 	
 
 }
-/******* ABOUTページの処理 *********/
+/******* ABOUT page processing *********/
 function loadAbout() {
 	
-	/*--------アニメーション設定制御--------*/
+	/*--------Animation setting control--------*/
 	$(function(){
-		/******【個別ページ】アバウト ******/
-		/*ファーストビュー*/
+		/****** [Individual page]  About ******/
+		/*First view*/
 		if ((navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 			$('#ABOUT .about-module-09 .heading1.none-pc').addClass(efc_bgColourInline + "e_bg-white");
 			$('#ABOUT .about-module-09 .heading1.none-pc span').addClass(effect_box);
@@ -481,7 +483,7 @@ function loadAbout() {
 		$('#ABOUT .about-module-09 h2 img').addClass(effect_box);
 		$("#ABOUT .about-module-09 .separate-w-m").wrap('<div class="anmation_container separate_anm-extend" />');
 		$("#ABOUT .about-module-09 .separate-w-m").addClass(separateAnimation + "anm_delay-xl");
-		/*アバウト概要*/
+		/*About outline*/
 		$('#ABOUT .about-module-10').addClass("performance anmation_container");
 		$('#ABOUT .about-module-10 img').addClass(animation04 + "anm_delay-m");
 
@@ -490,7 +492,7 @@ function loadAbout() {
 		$('#ABOUT .about-module-10 p').addClass(animation04 + "anm_delay-xl");
 		$("#ABOUT .about-module-10 .separate-w-s").wrap('<div class="anmation_container separate_anm-extend" />');
 		$("#ABOUT .about-module-10 .separate-w-s").addClass(separateAnimation + "anm_delay-l");
-		/*コンタクト*/
+		/*contact*/
 		$('#ABOUT .footer-suvArea').addClass("anmation_container");
 		$('#ABOUT .footer-suvArea .p2-EN').addClass(animation02 + "anm_delay-l");
 		$('#ABOUT .footer-suvArea .small1').addClass(animation01 + "anm_delay-xl");
@@ -498,35 +500,35 @@ function loadAbout() {
 		$("#ABOUT .footer-suvArea .separate-w-m").addClass(separateAnimation);
 	
 	});
-	/*アニメーション表示制御*/
+	/*Animation display control*/
 	$(function(){
 		$('.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 		$('.performance.anmation_container').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-			if (isInView) {//要素が見えたとき		
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
+			if (isInView) {//When an element is visible		
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'top'){//要素の上が表示域に入ってるとき
+				}else if (visiblePartY == 'top'){//When the top of the element is in the display area
 					$(this).addClass("active");
-				}else if (visiblePartY == 'bottom'){//要素の下が表示域に入ってるとき
+				}else if (visiblePartY == 'bottom'){//When the bottom of the element is in the display area
 					$(this).addClass("active");
 				}
 			}
 		});
 	});
-	/*アバウト表示制御*/
+	/*About display control*/
 	$('#ABOUT .heading1.efc-bgColour').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-	if (isInView) {//要素が見えたとき
+	if (isInView) {//When an element is visible
 		effect_wrp='#ABOUT .heading1 .effect_wrp';
 		effect_box='#ABOUT .heading1 .effect_box';		
-			if(!($(".ABOUT01_active").size())){//.view_activeクラスがない場合のみ
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
-					if(!($(effect_wrp).size())){//.effect_wrpクラスがない場合のみ
+			if(!($(".ABOUT01_active").size())){//.Only when there is no view_active class
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
+					if(!($(effect_wrp).size())){//.Only when there is no effect_wrp class
 						efcStart();
 						$(this).addClass('active');
 						$(this).addClass('ABOUT01_active');
@@ -540,23 +542,23 @@ function loadAbout() {
 		}
 		
 		function efcStart(){
-		/*指定タグの上位にタグを追加*/
+		/*Add tags above specified tag*/
 		$(effect_box).wrap('<div class="effect_wrp" />');
 		$(effect_wrp).wrap('<div class="effect_container" />');
 		}
 		function efcEnd(){
-			/*指定タグの上位のタグを削除*/
+			/*Delete tags above the specified tag*/
 			$(effect_wrp).unwrap();
 			$(effect_box).unwrap();
 		}
 	});
 	$('#ABOUT h2.efc-bgColour').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-	if (isInView) {//要素が見えたとき
+	if (isInView) {//When an element is visible
 		effect_wrp='#ABOUT h2 .effect_wrp';
 		effect_box='#ABOUT h2 .effect_box';		
-			if(!($(".ABOUT02_active").size())){//.view_activeクラスがない場合のみ
-				if (visiblePartY == 'both'){//要素の上下両方が表示域に入ってるとき
-					if(!($(effect_wrp).size())){//.effect_wrpクラスがない場合のみ
+			if(!($(".ABOUT02_active").size())){//.Only when there is no view_active class
+				if (visiblePartY == 'both'){//When both the top and bottom of the element are in the display area
+					if(!($(effect_wrp).size())){//.Only when there is no effect_wrp class
 						efcStart();
 						$(this).addClass('active');
 						$(this).addClass('ABOUT02_active');
@@ -570,12 +572,12 @@ function loadAbout() {
 		}
 		
 		function efcStart(){
-		/*指定タグの上位にタグを追加*/
+		/*Add tags above specified tag*/
 		$(effect_box).wrap('<div class="effect_wrp" />');
 		$(effect_wrp).wrap('<div class="effect_container" />');
 		}
 		function efcEnd(){
-			/*指定タグの上位のタグを削除*/
+			/*Delete tags above the specified tag*/
 			$(effect_wrp).unwrap();
 			$(effect_box).unwrap();
 		}

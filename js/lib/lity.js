@@ -384,12 +384,12 @@
                 });
             });
 			
-			return_scroll();//モーダル時の関数実行
+			return_scroll();//Function execution at modal
 
             return deferred.promise();
         }
 		
-		/*============= 【モーダルを表示したときに背景部分はスクロールできないようにする】ここから ============*/
+		/*=============  [Prevent scrolling of the background part when modal is displayed]from here ============*/
 		function return_scroll(){
 			//PC用
 			var scroll_event = 'onwheel' in document ? 'wheel' : 'onmousewheel' in document ? 'mousewheel' : 'DOMMouseScroll';
@@ -397,7 +397,7 @@
 			//SP用
 			$(document).off('.noScroll');
 		}
-		/*============= 【モーダルを表示したときに背景部分はスクロールできないようにする】 ここまで============*/
+		/*=============  [Prevent scrolling of the background part when modal is displayed] So far============*/
 
         function popup(event) {
             // If not an event, act as alias of popup.open
