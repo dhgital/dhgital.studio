@@ -248,7 +248,7 @@
 ***************************************************** */
 .small1,
 .small2{
-	line-height:1.6;
+	line-height:1.9;
 	word-wrap:break-word !important;
     overflow-wrap:break-word !important;
 }
@@ -256,7 +256,7 @@
 /*Using*/
 .small4 { font-size: 0.85rem; }/*14px*/
 .small5 { font-size: 0.8rem; }/*13px*/
-.small1 { font-size: 0.75rem; }/*12px*/
+.small1 { font-size: 0.9rem; }/*14px*/
 .small2 { font-size: 0.7rem; }/*11px*/
 .small3 { font-size: 0.65rem; }/*10px*/
 
@@ -269,7 +269,7 @@
 	.small1,
 	.small2,
 	.small3{
-		font-size:0.75rem;
+		font-size:0.9rem;
 	}
 }
 
